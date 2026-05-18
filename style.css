@@ -1,18 +1,22 @@
-header.web{
+.web{
     display: flex;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
     padding: 1px 1px;
-    margin: 10px;
+    margin: 15px;
     color: white;
     float: centre;
+}
+.navc{
+  width: 67%;
 }
 .image{
     display: flex;
     align-items: center;
     gap: 1px;
     font-size: 13px;
+    margin-left: 100px;
     font-weight: bold;
     cursor: pointer;
     transition:  transform 0.2s;
@@ -20,7 +24,7 @@ header.web{
   nav ul{
      display: flex;
      list-style-type: none;
-     gap: 100px;
+     gap: 60px;
      background-color: #7c5dfa;
      
   }
@@ -39,21 +43,70 @@ header.web{
     box-shadow: 0px 15px 35px #7c5dfa;
     backdrop-filter: blur(15px);
     border-radius: 60px;
-    padding: 15px 35px;
+    padding: 10px 35px;
   }
   body{
     background-color: #7c5dfa;
   }
+
+  .round{
+        border: 1px solid white;
+        border-radius: 40px;
+        padding: 7px;
+        color: white;
+        width: fit-content;
+        margin-right: 10px;
+        
+      
+
+    }
+    .flat{
+        border: 1px solid white;
+        border-radius: 40px;
+        padding: 7px;
+        color: white;
+        width: fit-content;
+        
+    }
+    
   .round:hover{
     background-color: #FFCA28;
    color:black;
+   padding: 12px;
   }
   .flat:hover{
     background-color:#FFCA28 ;
     color: black;
+    padding: 12px;
   }
   #sa{
     color: orange;
-    font-size: 40px;
-     font-family: sans-serif;
+    font-size: 50px;
+     font-weight: 200px;
+     padding-left: 150px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .ja img{
+     position: absolute;
+     bottom : 20%;
+    right : 20%;
+    height: 380px;
+    width :600px;
+    border-radius: 20px;
+  }
+  .hb{
+    color: white;
+    padding-left:150px ;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .bd{
+    padding-left: 150px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .c{
+    font-size: 25px;
+
   }
